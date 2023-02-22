@@ -1,4 +1,4 @@
-# My UIKitOSIntegrationExample Android App
+# UIKitOSIntegrationExample Android App
 This is an Android app that does some cool stuff.
 
 ## Requirements
