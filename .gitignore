@@ -1,0 +1,41 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.aab.zip
+
+# Compiled dex files
+*.class
+*.dex
+/build/
+/out/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio project metadata
+/.idea/
+/.gradle/
+*.iml
+
+# Log files
+*.log
+logs/
+logcat/
+
+# User-specific files
+*.iml
+*.iws
+*.ipr
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/.name
+/.idea/libraries
+/.idea/modules.xml
+.idea/codeStyles/
+.idea/caches/
+.idea/shelf/
+.gradle/
+.gradle-cache/
+/captures/
+/app/google-services.json

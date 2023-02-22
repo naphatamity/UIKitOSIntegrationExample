@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://jitpack.io'}
+        google()
+        mavenCentral()
+        maven {
+            url "https://repo.maven.apache.org/maven2/"
+        }
+    }
+}
+rootProject.name = "My Application"
+include ':app'
+include ':social'
+include ':amity-uikit'
+include ':chat'
+include ':common'
+
+project(':social').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/social')
+project(':chat').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/chat')
+project(':common').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/common')
+project(':amity-uikit').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/amity-uikit')
