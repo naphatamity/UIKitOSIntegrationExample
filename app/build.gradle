@@ -5,6 +5,20 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/farrari-mac/Desktop/WORK/UIKIT/testkey')
+            keyAlias 'key0'
+            storePassword '112358'
+            keyPassword '112358'
+        }
+        release {
+            storeFile file('/Users/farrari-mac/Desktop/WORK/UIKIT/testkey')
+            storePassword '112358'
+            keyAlias 'key0'
+            keyPassword '112358'
+        }
+    }
     compileSdk 33
 
     defaultConfig {

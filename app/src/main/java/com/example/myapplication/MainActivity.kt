@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         AmityCoreClient.setup("apikey")
         authenticate()
-
     }
 
     fun authenticate() {

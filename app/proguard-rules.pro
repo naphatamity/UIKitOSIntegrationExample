@@ -20,9 +20,3 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.ekoapp.ekosdk.** { *; }
--keep interface com.ekoapp.ekosdk.** { *; }
--keep enum com.ekoapp.ekosdk.** { *; }
--keep class com.amity.socialcloud.** { *; }
--keep interface com.amity.socialcloud.** { *; }
--keep enum com.amity.socialcloud.** { *; }
