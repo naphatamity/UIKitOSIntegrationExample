@@ -23,7 +23,7 @@ include ':amity-uikit'
 include ':chat'
 include ':common'
 
-project(':social').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/social')
-project(':chat').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/chat')
-project(':common').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/common')
-project(':amity-uikit').projectDir = new File(settingsDir, '../Amity-Social-Cloud-UIKit-Android-OpenSource/amity-uikit')
+project(':social').projectDir = new File(settingsDir, './social')
+project(':chat').projectDir = new File(settingsDir, './chat')
+project(':common').projectDir = new File(settingsDir, './common')
+project(':amity-uikit').projectDir = new File(settingsDir, './amity-uikit')
